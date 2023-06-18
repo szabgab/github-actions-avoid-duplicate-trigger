@@ -1,4 +1,6 @@
 external developer with generated branch name
+update after enablin Action in the branch
+
 # Avoid duplicate triggering of Github Actions
 
 I think ideally we would want to run the CI on all `push` and `pull_request` events.

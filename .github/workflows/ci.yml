@@ -3,6 +3,7 @@ name: Triggers
 on:
   push:
     branches:
+      - '*'
       - '!internal/**'
   pull_request:
   workflow_dispatch:

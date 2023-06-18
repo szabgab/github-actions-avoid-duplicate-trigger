@@ -1,5 +1,4 @@
-external developer with generated branch name
-update after enablin Action in the branch
+and update the branch after sending pr
 
 # Avoid duplicate triggering of Github Actions
 

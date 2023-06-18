@@ -2,8 +2,9 @@ name: Triggers
 
 on:
   push:
-#  pull_request:
-#  workflow_dispatch:
+    - '!internal/**'
+  pull_request:
+  workflow_dispatch:
 
 jobs:
   build:

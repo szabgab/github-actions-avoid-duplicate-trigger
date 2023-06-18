@@ -21,6 +21,14 @@ on:
 
 Avoid sending PR from the same repo. This is less ideal for projects with multiple maintainers who would like to work on a branch together.
 
+### Maintainers only send the PR when the branch is ready
+
+In this case maintainers, who would like to work on a branch in the central repository of the project would create a branch and work on that branch till they are satisfied.
+
+Only then, after potentially rebasing the branch, would they send a PR. This means the duplicate trigger only happens once.
+
+External contributors would still send PR when they think they are ready and even if then they need to update their branch this will only trigger one event.
+
 ### Limit the triggers
 
 ```
